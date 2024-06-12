@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #000000;
   margin: 0;
   padding: 0;
   display: flex;
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  background: #fff;
+  background: #f0f0f0;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -30,13 +30,13 @@ h1 {
   padding: 10px;
   margin: 5px 0;
   cursor: pointer;
-  border: 1px solid #ddd;
+  border: 1px solid #ffe81f;
   border-radius: 5px;
   transition: background 0.3s;
 }
 
 .character-item:hover {
-  background: #eee;
+  background: #ffe81f;
 }
 
 .character-details {
